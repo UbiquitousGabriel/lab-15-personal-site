@@ -1,7 +1,7 @@
 /* universal properties */
 body, html {
     height: 100%;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 200;
     color: white;
 }
@@ -22,7 +22,7 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: lime;
+    color: orangered;
 }
 
 div.stuff {
@@ -39,7 +39,13 @@ div.stuff {
 
 
 }
-
+div.video {
+    width: 700px;
+    overflow: auto;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: black;
+}
 div#first {
     background-color: #A63C58;
 }
@@ -53,16 +59,16 @@ div#third {
 }
 
 div#fourth {
-    background-color: #F2E2CE;
+    background-color: #F2762E;
 }
 
 div#fifth {
-    background-color: #F2762E;
+    background-color: red;
 }
 
 /* made major mono display all headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Major Mono Display', monospace;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 /* style the navbar */
@@ -75,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     display: block;
     color: #F2A74B;
-    font-family: 'Major Mono Display', monospace;
+    font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     padding: 14px;
     text-decoration: none;
