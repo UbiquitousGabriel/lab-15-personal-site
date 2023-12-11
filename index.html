@@ -39,9 +39,24 @@
         <img src="PROFILE1.jpg" alt="" />
     </figure>
     </div>
+    <canvas id="myCanvas" width="500" height="1000" style="border:1px solid #000;"></canvas>
+   
     <script src="navbar.v01.js"></script>
-
     
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+
+        context.fillStyle = "#FF218C"; context.fillRect(20, 20, 500, 100);
+        context.fillStyle = "#FFD800"; context.fillRect(20, 120, 500, 100);
+        context.fillStyle = "#21B1FF"; context.fillRect(20, 220, 500, 100);
+        context.fillStyle = "black"; context.fillRect(125, 120, 100, 100);
+        context.fillStyle = "black"; context.fillRect(300, 120, 100, 100);
+        context.fillStyle = "white"; context.fillRect(125, 120, 25, 25);
+        context.fillStyle = "white"; context.fillRect(300, 120, 25, 25);
+        
+
+    </script>
 
     
 </body>
