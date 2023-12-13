@@ -30,9 +30,9 @@ div.stuff {
     word-wrap: break-word;
     overflow: auto;
     text-align: left;
-    border-width: 1px;
-    border-style: dotted;
-    border-color: black;
+    border-width: 5px;
+    border-style:  ridge;
+    border-color: #B0D9BE;
     float: left;
     margin: 10px;
     padding: 5px;
@@ -45,9 +45,6 @@ div.image {
     word-wrap: break-word;
     overflow: auto;
     text-align: left;
-    border-width: 1px;
-    border-style: dotted;
-    border-color: black;
     float: left;
     margin: 10px;
     padding: 5px;
@@ -57,9 +54,9 @@ div.image {
 div.video {
     width: 700px;
     overflow: auto;
-    border-width: 1px;
-    border-style: dotted;
-    border-color: black;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: orangered;
 }
 div#first {
     background-color: #A63C58;
