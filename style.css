@@ -57,6 +57,8 @@ div.video {
     border-width: 5px;
     border-style: ridge;
     border-color: orangered;
+    margin: 10px;
+    padding: 5px;
 }
 div#first {
     background-color: #A63C58;
