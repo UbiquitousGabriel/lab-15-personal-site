@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #navbar a {
-    float: left;
+    float:left;
     display: block;
     color: #F2A74B;
     font-family: 'Bebas Neue', sans-serif;
